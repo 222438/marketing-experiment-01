@@ -1,0 +1,49 @@
+# Marketing Experiments
+
+营销数据分析系列实验仓库。实验一完成一个不调用大模型 API 的 CSV 分析工具；后续实验放入 `experiments/` 目录，并沿用同一 GitHub 仓库的版本记录。
+
+## 实验一：营销数据分析工具
+
+上传 CSV 后，程序会：
+
+- 检查必需字段 `brand`、`price`、`rating`；
+- 清理空值和非数字数据，并给出可读的提示；
+- 按品牌计算平均价格和平均评分；若提供 `sales`、`product`，同时展示总销量和商品数；
+- 绘制平均价格和平均评分柱状图；
+- 支持品牌筛选、结果表格查看和筛选结果下载。
+
+## 启动
+
+需要 Python 3.11 或更高版本。依赖版本固定为已验证的 pandas 3.0.2 和 Streamlit 1.56.0。
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
+```
+
+打开终端显示的本地地址，在侧边栏上传 `data/marketing_data.csv` 或自己的 CSV。分析需要 `brand`、`price`、`rating` 三个字段；`product` 和 `sales` 会保留在原始表格中，并在提供时计算扩展指标。未上传文件时，页面会自动展示内置示例数据。
+
+## 项目结构
+
+```text
+.
+├── app.py
+├── data/                      # 演示数据和三类验收 CSV
+├── docs/experiment01.md       # 实验记录、验收结果和 Debug 过程
+├── logs/debug.log             # 运行与排错记录
+├── prompts/requirement_prompt.md
+├── screenshots/               # 运行截图
+└── experiments/               # 后续实验
+```
+
+后续实验从 `experiments/README.md` 约定的结构开始，并在此 README 增加运行方式和实验入口。
+
+## 验收
+
+```powershell
+python -m unittest discover -s tests -v
+```
+
+版本 `v0.1` 对应实验一的首个可运行版本。
