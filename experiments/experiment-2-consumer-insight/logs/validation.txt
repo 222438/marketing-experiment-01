@@ -1,0 +1,7 @@
+2026-11-10 INFO 采用 GitHub marcosmodly/marketing-skill（134 Stars，固定提交 28456ea34da08b3344ea86721792755e320c9e21）的证据纪律。
+2026-11-10 INFO 使用 ChatGPT 已提供的 consumer-review-collector Skill 作为评论字段方法参考。
+2026-11-10 INFO 从零创建 consumer-insight-skill，不复用本机已有实验四成品。
+2026-11-10 PASS 10 条输入、10 条预期输出、10 条结构化结果 ID 一一对应。
+2026-11-10 PASS evidence.quote 全部是原评论连续子串。
+2026-11-10 PASS 空评论 R009 使用 unknown/[]/low，未生成伪证据。
+2026-11-10 PASS 盲测边界样例全部通过。

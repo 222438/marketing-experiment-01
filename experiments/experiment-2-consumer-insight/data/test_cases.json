@@ -1,0 +1,12 @@
+[
+  {"review_id":"R001","sentiment":"positive","need":["none"],"pain_point":["none"],"scenario":["commute"],"purchase_barrier":["none"],"evidence":[{"field":"sentiment","quote":"音质很清晰"},{"field":"scenario","quote":"通勤路上"}],"confidence":"high"},
+  {"review_id":"R002","sentiment":"negative","need":["unknown"],"pain_point":["price","quality"],"scenario":["unknown"],"purchase_barrier":["price"],"evidence":[{"field":"pain_point","quote":"价格有点贵"},{"field":"pain_point","quote":"续航太短"}],"confidence":"high"},
+  {"review_id":"R003","sentiment":"mixed","need":["convenience"],"pain_point":["usability"],"scenario":["unknown"],"purchase_barrier":["none"],"evidence":[{"field":"sentiment","quote":"保温效果不错"},{"field":"need","quote":"希望杯盖更容易清洗"},{"field":"pain_point","quote":"更容易清洗"}],"confidence":"high"},
+  {"review_id":"R004","sentiment":"negative","need":["unknown"],"pain_point":["quality"],"scenario":["unknown"],"purchase_barrier":["quality"],"evidence":[{"field":"purchase_barrier","quote":"担心漏水所以没有下单"},{"field":"pain_point","quote":"漏水"}],"confidence":"high"},
+  {"review_id":"R005","sentiment":"positive","need":["none"],"pain_point":["none"],"scenario":["gift","family"],"purchase_barrier":["none"],"evidence":[{"field":"scenario","quote":"送给家人"},{"field":"sentiment","quote":"包装也很精致"}],"confidence":"high"},
+  {"review_id":"R006","sentiment":"negative","need":["unknown"],"pain_point":["delivery","service"],"scenario":["unknown"],"purchase_barrier":["delivery"],"evidence":[{"field":"pain_point","quote":"配送很慢"},{"field":"pain_point","quote":"客服也没有及时回复"}],"confidence":"high"},
+  {"review_id":"R007","sentiment":"neutral","need":["unknown"],"pain_point":["unknown"],"scenario":["unknown"],"purchase_barrier":["unknown"],"evidence":[],"confidence":"low"},
+  {"review_id":"R008","sentiment":"neutral","need":["unknown"],"pain_point":["none"],"scenario":["unknown"],"purchase_barrier":["unknown"],"evidence":[{"field":"sentiment","quote":"颜色好看"}],"confidence":"medium"},
+  {"review_id":"R009","sentiment":"unknown","need":["unknown"],"pain_point":["unknown"],"scenario":["unknown"],"purchase_barrier":["unknown"],"evidence":[],"confidence":"low"},
+  {"review_id":"R010","sentiment":"mixed","need":["unknown"],"pain_point":["price"],"scenario":["unknown"],"purchase_barrier":["price"],"evidence":[{"field":"sentiment","quote":"我喜欢外观"},{"field":"pain_point","quote":"太贵了"},{"field":"purchase_barrier","quote":"以后不会再买"}],"confidence":"high"}
+]

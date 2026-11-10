@@ -47,3 +47,17 @@ python -m unittest discover -s tests -v
 ```
 
 版本 `v0.1` 对应实验一的首个可运行版本。
+
+## 实验二：Consumer Insight Skill
+
+实验二把消费者评论分析整理为可复用 Skill。输入 `experiments/experiment-2-consumer-insight/data/reviews.csv`，按
+`experiments/experiment-2-consumer-insight/skills/consumer-insight-skill/SKILL.md` 的边界规则输出结构化 JSON；
+Schema、标签字典、10 条试样、盲测记录和失败案例均保存在同一目录中。
+
+验证命令：
+
+```powershell
+python experiments/experiment-2-consumer-insight/scripts/validate_skill.py
+```
+
+版本 `v0.2` 对应实验二的可复用 Skill 版本。
