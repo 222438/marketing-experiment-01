@@ -1,0 +1,21 @@
+{
+  "rows": 50,
+  "fields": 13,
+  "seed": 20261110,
+  "missing": {
+    "record_id": 0,
+    "asin": 0,
+    "product": 0,
+    "brand": 4,
+    "price": 0,
+    "rating": 0,
+    "review": 0,
+    "review_date": 0,
+    "unix_review_time": 0,
+    "helpful_votes": 0,
+    "total_votes": 0,
+    "source_review_line": 0,
+    "source_metadata_line": 0
+  },
+  "sample_rule": "First 50 in sorted 450-row sample; before cleaning"
+}

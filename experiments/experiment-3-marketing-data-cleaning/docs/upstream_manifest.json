@@ -1,0 +1,32 @@
+{
+  "repository": "https://github.com/anthropics/knowledge-work-plugins",
+  "commit": "e605d8ddbfb688da57dfaaceebd93f12a64ef1d3",
+  "repository_stars_observed": 35295,
+  "observed_date": "2026-11-10",
+  "files": [
+    {
+      "path": "vendor/anthropic-data/skills/explore-data/SKILL.md",
+      "upstream_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/e605d8ddbfb688da57dfaaceebd93f12a64ef1d3/data/skills/explore-data/SKILL.md",
+      "sha256": "af7590fa616360259da712b5ede5f79b817beb854c47a465f95774354988e8a2",
+      "byte_equal_verified": true
+    },
+    {
+      "path": "vendor/anthropic-data/skills/validate-data/SKILL.md",
+      "upstream_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/e605d8ddbfb688da57dfaaceebd93f12a64ef1d3/data/skills/validate-data/SKILL.md",
+      "sha256": "1e424822043480375b80aef9416227b1c8083af749ca536568716265f79ca54b",
+      "byte_equal_verified": true
+    },
+    {
+      "path": "vendor/anthropic-data/LICENSE",
+      "upstream_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/e605d8ddbfb688da57dfaaceebd93f12a64ef1d3/data/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "byte_equal_verified": true
+    },
+    {
+      "path": "vendor/anthropic-data/CONNECTORS.md",
+      "upstream_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/e605d8ddbfb688da57dfaaceebd93f12a64ef1d3/data/CONNECTORS.md",
+      "sha256": "79de0e9613ef7870e773b6dcdcb7d50f4bff2c0574c14ab5e0aeb29014dcec7b",
+      "byte_equal_verified": true
+    }
+  ]
+}

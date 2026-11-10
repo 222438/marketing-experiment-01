@@ -1,0 +1,4 @@
+# Preserve evidence bytes and upstream Skill hashes across Windows/Linux checkouts.
+experiments/experiment-3-marketing-data-cleaning/data/** -text
+experiments/experiment-3-marketing-data-cleaning/**/*.csv -text
+experiments/experiment-3-marketing-data-cleaning/vendor/** -text

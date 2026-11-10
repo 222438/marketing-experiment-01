@@ -1,0 +1,24 @@
+{
+  "dataset": "Amazon product data 2014 / Musical Instruments 5-core",
+  "description_url": "https://snap.stanford.edu/data/amazon/productGraph/",
+  "source_files": {
+    "reviews_Musical_Instruments_5.json.gz": {
+      "url": "https://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Musical_Instruments_5.json.gz",
+      "sha256": "03f9cc27ae13a454cb4ea6cb620fb10546cc1194ef921441d1c5f34addff2748"
+    },
+    "meta_Musical_Instruments.json.gz": {
+      "url": "https://snap.stanford.edu/data/amazon/productGraph/categoryFiles/meta_Musical_Instruments.json.gz",
+      "sha256": "9ef838f5d971d3a7f52f0bbc1cc971082cddd8d6b1049ec3c4940e28293bfd85"
+    }
+  },
+  "review_population": 10261,
+  "metadata_population": 84901,
+  "sample_size": 450,
+  "seed": 20261110,
+  "selection": "random.sample of all review rows, sorted by original line; no quality prefilter",
+  "matched_products": 316,
+  "sampled_products": 316,
+  "raw_sha256": "e1176b847d20e93fd7a9322ea7f037fffd3b93b9370ab423aa91b252da50e433",
+  "privacy_projection": "Excluded reviewerID, reviewerName and all unused metadata fields; review text unchanged.",
+  "price_meaning": "USD at metadata crawl time; not transaction price or today's price"
+}
