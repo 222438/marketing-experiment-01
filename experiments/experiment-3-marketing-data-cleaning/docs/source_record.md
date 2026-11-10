@@ -37,4 +37,3 @@
 Julian McAuley, Christopher Targett, Qinfeng Shi, Anton van den Hengel.
 **Image-based recommendations on styles and substitutes.** SIGIR, 2015.
 [官方论文链接](https://snap.stanford.edu/data/amazon/productGraph/sigir_draft.pdf)。
-

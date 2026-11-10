@@ -1,0 +1,11 @@
+﻿record_id,source_review_line,action,reason,raw_brand,clean_brand,raw_price,clean_price,raw_date,clean_date,review_unchanged,source_projection_match
+MI-01185,1185,keep,,Fender,Fender,9.45,9.45,"04 6, 2013",2013-04-06,True,True
+MI-01617,1617,keep,,Jim Dunlop,Jim Dunlop,9.92,9.92,"01 12, 2014",2014-01-12,True,True
+MI-02812,2812,keep,,D&#39;Addario,D'Addario,13.34,13.34,"05 6, 2014",2014-05-06,True,True
+MI-03251,3251,keep,,Martin,Martin,5.06,5.06,"09 9, 2013",2013-09-09,True,True
+MI-03639,3639,keep,,On-Stage Stands,On-Stage Stands,12.99,12.99,"04 8, 2014",2014-04-08,True,True
+MI-05150,5150,keep,,Nady,Nady,48.42,48.42,"01 8, 2014",2014-01-08,True,True
+MI-05265,5265,keep,,Jim Dunlop,Jim Dunlop,3.15,3.15,"03 1, 2014",2014-03-01,True,True
+MI-06790,6790,keep,,Planet Waves,Planet Waves,4.29,4.29,"09 8, 2013",2013-09-08,True,True
+MI-07555,7555,keep,,Planet Waves,Planet Waves,59.99,59.99,"01 23, 2012",2012-01-23,True,True
+MI-09212,9212,keep,,String Swing,String Swing,8.02,8.02,"03 29, 2012",2012-03-29,True,True

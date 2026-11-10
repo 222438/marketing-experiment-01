@@ -61,3 +61,22 @@ python experiments/experiment-2-consumer-insight/scripts/validate_skill.py
 ```
 
 版本 `v0.2` 对应实验二的可复用 Skill 版本。
+
+## 实验三：营销数据获取与清洗
+
+实验三使用 Stanford/UCSD 公开发布的真实 Amazon 乐器类历史评论，固定抽取 450 条，清洗后保留 385 条。原始文件保留；没有补造品牌、价格、评分、评论或日期。调用 Anthropic 官方现成 `explore-data` 和 `validate-data` Skill，原文件保存在实验目录中。
+
+[实验三入口与交付物](experiments/experiment-3-marketing-data-cleaning/README.md) · [实验记录](docs/experiment03.md)
+
+启动 `python -m streamlit run app.py` 后，在左侧选择 **营销数据清洗**，上传实验三 `raw_data.csv`，查看处理记录并下载清洗结果。价格为历史 USD 元数据价格，评论日期截至 2014 年。
+
+验证命令：
+
+```powershell
+python experiments/experiment-3-marketing-data-cleaning/scripts/clean_data.py
+python experiments/experiment-3-marketing-data-cleaning/scripts/profile_data.py
+python experiments/experiment-3-marketing-data-cleaning/scripts/validate_data.py
+python -m unittest discover -s experiments/experiment-3-marketing-data-cleaning/tests -v
+```
+
+版本 `v0.3` 对应实验三的数据获取与清洗版本。

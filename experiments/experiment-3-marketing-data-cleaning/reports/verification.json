@@ -1,0 +1,11 @@
+{
+  "sample_rows": 450,
+  "clean_rows": 385,
+  "source_projection_matches": true,
+  "original_archives_verified_this_run": true,
+  "raw_hash": "e1176b847d20e93fd7a9322ea7f037fffd3b93b9370ab423aa91b252da50e433",
+  "raw_unchanged": true,
+  "repeat_runs_identical": true,
+  "all_fields_completeness_at_least_90pct": true,
+  "contact_pattern_flags": []
+}

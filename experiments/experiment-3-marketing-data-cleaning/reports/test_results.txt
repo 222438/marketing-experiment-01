@@ -1,0 +1,18 @@
+Experiment 3 test command (executed 2026-11-10 19:12 Asia/Shanghai):
+python -X utf8 -m unittest discover -s experiments/experiment-3-marketing-data-cleaning/tests -v
+Observed result: Ran 13 tests in 6.668s; OK.
+
+Browser check: scripts/check_browser.py passed upload/download/missing-column checks; browser_check.json has zero page errors.
+
+Experiment 1 regression command: python -X utf8 -m unittest discover -s tests -v
+test_empty_required_values_are_reported_and_excluded (test_app.MarketingAnalysisTests.test_empty_required_values_are_reported_and_excluded) ... ok
+test_empty_rows_produce_no_usable_data (test_app.MarketingAnalysisTests.test_empty_rows_produce_no_usable_data) ... ok
+test_invalid_numeric_value_is_removed (test_app.MarketingAnalysisTests.test_invalid_numeric_value_is_removed) ... ok
+test_missing_fields_are_reported (test_app.MarketingAnalysisTests.test_missing_fields_are_reported) ... ok
+test_normal_csv_has_expected_brand_summary (test_app.MarketingAnalysisTests.test_normal_csv_has_expected_brand_summary) ... ok
+test_product_and_sales_are_optional (test_app.MarketingAnalysisTests.test_product_and_sales_are_optional) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.143s
+
+OK

@@ -1,0 +1,20 @@
+{
+  "raw_rows": 450,
+  "clean_rows": 385,
+  "dropped_rows": 65,
+  "retention_pct": 85.5556,
+  "drop_reasons": {
+    "missing_required:brand": 64,
+    "missing_required:review": 1
+  },
+  "field_changes": {
+    "rating": 385,
+    "review_date": 385,
+    "price": 48,
+    "product": 18,
+    "brand": 29
+  },
+  "raw_sha256": "e1176b847d20e93fd7a9322ea7f037fffd3b93b9370ab423aa91b252da50e433",
+  "clean_sha256": "19dd4f80ea46f75625d881511c442a09fa66b16a5d193ba1a10c1c9e02e6b467",
+  "all_clean_fields_at_least_90pct": true
+}

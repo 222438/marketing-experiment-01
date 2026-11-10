@@ -56,4 +56,3 @@ def write_bytes(path: Path, data: bytes, immutable=False):
 
 def write_json(path: Path, data, immutable=False):
     write_bytes(path, (json.dumps(data, ensure_ascii=False, indent=2)+"\n").encode("utf-8"), immutable)
-
